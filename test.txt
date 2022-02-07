@@ -1,0 +1,7 @@
+Program Test3_error;
+var counter=integer;
+BEGIN
+for counter := 1 to 7 do:
+   begin
+      WriteLn('for loop');
+END.

@@ -1,0 +1,41 @@
+VETOR DE TOKENS
++-------------+---------+-----+
+|     Type    |  Lexeme | Row |
++-------------+---------+-----+
+|   PROGRAM   | program |  1  |
+|      ID     |   calc  |  1  |
+|  SEMICOLON  |    ;    |  1  |
+|      ID     |    x    |  2  |
+| FLOAT_CONST |   3.15  |  2  |
+|  SEMICOLON  |    ;    |  2  |
+|      ID     |    y    |  3  |
+|    ASSIGN   |    :=   |  3  |
+| FLOAT_CONST |   2.4   |  3  |
+|  SEMICOLON  |    ;    |  3  |
+|      ID     |    w    |  4  |
+|    ASSIGN   |    :=   |  4  |
+| FLOAT_CONST |   100   |  4  |
+|  SEMICOLON  |    ;    |  4  |
++-------------+---------+-----+
+
+TABELA DE SIMBOLOS
++------+------+-------+---------+
+| Name | Type | Value | Address |
++------+------+-------+---------+
++------+------+-------+---------+
+
+ERROS
++-------+-----+---------+
+| Value | Row | Message |
++-------+-----+---------+
++-------+-----+---------+
+
+SEQUÊNCIA DE COMPILAÇÃO
++-----------+----------+
+|   Token   | Function |
++-----------+----------+
+|  PROGRAM  | program  |
+|     ID    | program  |
+| SEMICOLON | program  |
++-----------+----------+
+
